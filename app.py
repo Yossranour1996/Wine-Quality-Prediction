@@ -55,7 +55,7 @@ def index():
     else:
         return render_template('index.html')
 
-
+# 207567764228.dkr.ecr.us-west-2.amazonaws.com/mlproject
 
 if __name__ == "__main__":
 	app.run(host="0.0.0.0", port = 8080)
